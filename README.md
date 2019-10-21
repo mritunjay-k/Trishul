@@ -4,8 +4,6 @@ Automated recon for web application bug hunting.
 # Usage
 `./trishul.sh target.com`
 
-[example link](http://example.com/)
-
 # Dependencies
 - [Nmap](https://nmap.org/download.html)
 - [Sublist3r](https://github.com/aboul3la/Sublist3r)
