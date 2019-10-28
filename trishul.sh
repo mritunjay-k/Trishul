@@ -18,10 +18,8 @@ fi
 
 if [ ! -d "recon" ]; then
 	mkdir recon
-fi
-
-if [[ -f "recon/alive_hosts" ]]; then
-    rm recon/alive_hosts
+else
+	rm -r recon; mkdir recon
 fi
 
 echo "$(tput setaf 6) Gathering subdomains with sublister..."
