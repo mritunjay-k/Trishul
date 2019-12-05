@@ -1,5 +1,5 @@
 # Trishul
-Automated recon for web application bug hunting.
+Automated recon for web application bug hunting..
 
 # Usage
 `./trishul.sh target.com`
